@@ -105,7 +105,7 @@
       font-weight: 600;
       letter-spacing: 0.25em;
       text-transform: uppercase;
-      color: var(--hazel);
+      color: var(--dark-red);
       margin-bottom: 1.2rem;
       position: relative;
       z-index: 1;
@@ -178,7 +178,7 @@
 
     .space-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      grid-template-columns: repeat(3, 1fr);
       gap: 1rem;
       margin-bottom: 3rem;
     }
@@ -235,7 +235,7 @@
       font-weight: 600;
       letter-spacing: 0.2em;
       text-transform: uppercase;
-      color: var(--hazel);
+      color: var(--dark-red);
     }
 
     .cost-card {
@@ -258,13 +258,15 @@
       font-weight: 600;
       letter-spacing: 0.2em;
       text-transform: uppercase;
-      color: var(--dark-red);
+      color: var(--hazel);
     }
 
     .cost-card-fixed {
-      font-size: 1.1rem;
-      font-weight: 700;
-      color: var(--hazel);
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--off-white);
       white-space: nowrap;
     }
 
@@ -323,7 +325,7 @@
 
     .input-group input:focus,
     .input-group select:focus {
-      border-color: var(--hazel);
+      border-color: var(--dark-red);
     }
 
     .input-group select option {
@@ -463,7 +465,7 @@
     @media (max-width: 768px) {
       nav { padding: 1.25rem 1.5rem; }
       .nav-links { display: none; }
-      .space-grid { grid-template-columns: 1fr 1fr; }
+      .space-grid { grid-template-columns: repeat(2, 1fr); }
     }
 
     @media (max-width: 480px) {
@@ -485,7 +487,6 @@
 
   <!-- HERO -->
   <section class="hero">
-    <p class="hero-eyebrow">3rd Space Consulting</p>
     <h1 class="hero-headline">What will your <em>social life</em> actually cost?</h1>
     <p class="hero-sub">Select your 3rd Space and enter your estimated costs to see a real monthly breakdown — no guessing.</p>
     <div class="divider"></div>
@@ -494,8 +495,7 @@
   <!-- CALCULATOR -->
   <div class="calculator-wrapper">
 
-    <!-- STEP 1: SELECT SPACE -->
-    <p class="step-label">Step 1</p>
+    <!-- SELECT SPACE -->
     <h2 class="step-title">Select your 3rd Space</h2>
 
     <div class="space-grid">
@@ -592,8 +592,7 @@
         <div class="result-per">per month</div>
         <div class="result-breakdown" id="bowling-breakdown"></div>
         <div class="result-cta-group">
-          <a href="https://quiz.3rdspaceconsulting.co" class="btn-primary">Take the 3rd Space Quiz →</a>
-          <a href="https://3rdspaceconsulting.co" class="btn-secondary-link">Learn more at 3rdspaceconsulting.co</a>
+          <a href="https://3rdspaceconsulting.co" class="btn-primary">Learn more at 3rdspaceconsulting.co →</a>
         </div>
       </div>
     </div>
@@ -649,8 +648,7 @@
         <div class="result-per">per month</div>
         <div class="result-breakdown" id="boardgames-breakdown"></div>
         <div class="result-cta-group">
-          <a href="https://quiz.3rdspaceconsulting.co" class="btn-primary">Take the 3rd Space Quiz →</a>
-          <a href="https://3rdspaceconsulting.co" class="btn-secondary-link">Learn more at 3rdspaceconsulting.co</a>
+          <a href="https://3rdspaceconsulting.co" class="btn-primary">Learn more at 3rdspaceconsulting.co →</a>
         </div>
       </div>
     </div>
@@ -704,8 +702,7 @@
         <div class="result-per">per month</div>
         <div class="result-breakdown" id="timeleft-breakdown"></div>
         <div class="result-cta-group">
-          <a href="https://quiz.3rdspaceconsulting.co" class="btn-primary">Take the 3rd Space Quiz →</a>
-          <a href="https://3rdspaceconsulting.co" class="btn-secondary-link">Learn more at 3rdspaceconsulting.co</a>
+          <a href="https://3rdspaceconsulting.co" class="btn-primary">Learn more at 3rdspaceconsulting.co →</a>
         </div>
       </div>
     </div>
@@ -769,8 +766,7 @@
         <div class="result-per">per month</div>
         <div class="result-breakdown" id="nature-breakdown"></div>
         <div class="result-cta-group">
-          <a href="https://quiz.3rdspaceconsulting.co" class="btn-primary">Take the 3rd Space Quiz →</a>
-          <a href="https://3rdspaceconsulting.co" class="btn-secondary-link">Learn more at 3rdspaceconsulting.co</a>
+          <a href="https://3rdspaceconsulting.co" class="btn-primary">Learn more at 3rdspaceconsulting.co →</a>
         </div>
       </div>
     </div>
@@ -820,8 +816,7 @@
         <div class="result-per">per month + upfront gear costs</div>
         <div class="result-breakdown" id="dance-breakdown"></div>
         <div class="result-cta-group">
-          <a href="https://quiz.3rdspaceconsulting.co" class="btn-primary">Take the 3rd Space Quiz →</a>
-          <a href="https://3rdspaceconsulting.co" class="btn-secondary-link">Learn more at 3rdspaceconsulting.co</a>
+          <a href="https://3rdspaceconsulting.co" class="btn-primary">Learn more at 3rdspaceconsulting.co →</a>
         </div>
       </div>
     </div>
@@ -878,8 +873,7 @@
         <div class="result-per">per month</div>
         <div class="result-breakdown" id="sports-breakdown"></div>
         <div class="result-cta-group">
-          <a href="https://quiz.3rdspaceconsulting.co" class="btn-primary">Take the 3rd Space Quiz →</a>
-          <a href="https://3rdspaceconsulting.co" class="btn-secondary-link">Learn more at 3rdspaceconsulting.co</a>
+          <a href="https://3rdspaceconsulting.co" class="btn-primary">Learn more at 3rdspaceconsulting.co →</a>
         </div>
       </div>
     </div>
